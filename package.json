@@ -1,0 +1,18 @@
+{
+  "name": "MediaPlayer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Juan D Vejarano <juanjdv_200@hotmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server",
+    "startSass": "sass --watch scss/styles.scss:css/styles.css --style expanded"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1",
+    "sass": "^1.45.0"
+  }
+}

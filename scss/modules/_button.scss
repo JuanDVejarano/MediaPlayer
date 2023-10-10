@@ -1,0 +1,7 @@
+.btnPlay{
+    @include defaultFont(1, $c: #ffffff);
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: #9300ff;
+    cursor: pointer;
+}

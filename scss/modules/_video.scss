@@ -1,0 +1,12 @@
+.boxVideo{
+    background: #ffffff;
+    box-shadow:  13px 13px 26px #cccccc, -13px -13px 26px #ffffff;
+    border-radius: 20px;
+    width: 90vw; max-width: 800px;
+    display: flex;
+    margin-bottom: 40px;
+    &__video{
+        border-radius: 20px;
+        width: 100%;
+    }
+}

@@ -1,0 +1,20 @@
+.header{
+    background: rgb(61,15,92);
+    background: linear-gradient(90deg, rgba(61,15,92,1) 0%, rgba(84,21,168,1) 35%, rgba(147,0,255,1) 100%);
+    border-bottom:1px solid #eee;
+    height: 90px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__title{
+        @include defaultFont(1 ,$fz: 24px, $ta: center, $fw: "black", $c: #c9e1ff);
+        margin: auto;
+    }
+    @include media-up(mobile) {
+        height:90px;
+        //position:fixed;
+        width:100%;
+        top:0;
+    }
+}
